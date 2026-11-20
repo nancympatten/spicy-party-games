@@ -1054,6 +1054,21 @@ def footer():
                 <span class="muted">18+ Audience</span>
             </div>
         </div>
+        <div style="background:#0d1018;border-top:1px solid #1f2433;padding:24px 16px;margin-top:40px;font-family:system-ui,-apple-system,sans-serif;text-align:center;">
+          <p style="color:#9ca3af;font-size:12px;letter-spacing:1px;text-transform:uppercase;margin:0 0 12px 0;">Explore Our Interactive Network</p>
+          <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:8px;max-width:960px;margin:0 auto;">
+            <a href="https://ai-girlfriend-prompts.velvetgrid.workers.dev" style="color:#c4b5fd;background:#161b28;padding:6px 12px;border-radius:6px;font-size:13px;text-decoration:none;border:1px solid #262d40;">AI Girlfriend Prompts</a>
+            <a href="https://couples-intimacy-games.velvetgrid.workers.dev" style="color:#c4b5fd;background:#161b28;padding:6px 12px;border-radius:6px;font-size:13px;text-decoration:none;border:1px solid #262d40;">Couples Intimacy Games</a>
+            <a href="https://fantasy-roleplay-hub.velvetgrid.workers.dev" style="color:#c4b5fd;background:#161b28;padding:6px 12px;border-radius:6px;font-size:13px;text-decoration:none;border:1px solid #262d40;">Fantasy Roleplay Hub</a>
+            <a href="https://character-persona-hub.velvetgrid.workers.dev" style="color:#c4b5fd;background:#161b28;padding:6px 12px;border-radius:6px;font-size:13px;text-decoration:none;border:1px solid #262d40;">Character Persona Hub</a>
+            <a href="https://flirty-chat-openers.velvetgrid.workers.dev" style="color:#c4b5fd;background:#161b28;padding:6px 12px;border-radius:6px;font-size:13px;text-decoration:none;border:1px solid #262d40;">Flirty Chat Openers</a>
+            <a href="https://midnight-audio-stories.velvetgrid.workers.dev" style="color:#c4b5fd;background:#161b28;padding:6px 12px;border-radius:6px;font-size:13px;text-decoration:none;border:1px solid #262d40;">Midnight Audio Stories</a>
+            <a href="https://spicy-party-games.velvetgrid.workers.dev" style="color:#c4b5fd;background:#161b28;padding:6px 12px;border-radius:6px;font-size:13px;text-decoration:none;border:1px solid #262d40;">Spicy Party Games</a>
+            <a href="https://intimacy-quiz-hub.velvetgrid.workers.dev" style="color:#c4b5fd;background:#161b28;padding:6px 12px;border-radius:6px;font-size:13px;text-decoration:none;border:1px solid #262d40;">Intimacy Quiz Hub</a>
+            <a href="https://couples-bucket-list.velvetgrid.workers.dev" style="color:#c4b5fd;background:#161b28;padding:6px 12px;border-radius:6px;font-size:13px;text-decoration:none;border:1px solid #262d40;">Couples Bucket List</a>
+            <a href="https://adult-ai-art-prompts.velvetgrid.workers.dev" style="color:#c4b5fd;background:#161b28;padding:6px 12px;border-radius:6px;font-size:13px;text-decoration:none;border:1px solid #262d40;">Adult AI Art Prompts</a>
+          </div>
+        </div>
     </footer>
     """
 
@@ -1067,6 +1082,8 @@ def meta_tags(title, description, canonical, og_type="website"):
     <title>{esc(title)}</title>
     <meta name="description" content="{esc(truncate(description, 160))}">
     <meta name="robots" content="index,follow,max-image-preview:large">
+    <meta name="google-site-verification" content="Ee2L9A2G2nVVNtBt7HiplcBJf1nSen-Rcz4sNqLuAdc" />
+    <meta name="msvalidate.01" content="4573069C62AEC27DA4F08DC57760BAD4" />
     <meta name="rating" content="RTA-5042-1996-1400-1577-RTA" />
     <link rel="canonical" href="{esc(canonical)}">
     <meta property="og:type" content="{esc(og_type)}">
